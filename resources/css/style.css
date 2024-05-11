@@ -1,0 +1,174 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+a {
+    color: seashell;
+}
+
+a:link {
+    color: seashell;
+}
+
+/*nav*/
+
+.container {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    width: 100%;
+    height: 3.163rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.navlist {
+    margin: 0 1.2rem;
+}
+
+#logo {
+    height: 2.7272rem;
+    margin: 0.4545rem;
+}
+
+/*main*/
+
+.main {
+    position: relative;
+    top: 3.163rem;
+    background-image: url(../images/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31.8181rem;
+    max-width: 54.5454rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.main h2, h4 {
+    align-self: center;
+    margin: 0.6rem;
+}
+
+/*gallery*/
+.gallery {
+    position: relative;
+    top: 3.163rem;
+    max-width: 45.4545rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: auto;
+}
+
+.content {
+    text-align: center;
+    margin: auto;
+}
+
+.images-txt-cnt {
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.image-txt {
+    margin: 0.5rem;
+}
+
+.image-txt img {
+    max-width: 13.6363rem;
+    height: 9.0909rem;;
+   
+}
+
+.location {
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 54.5454rem;
+    min-height: 22.7272rem;
+    position: relative;
+    top: 4.5rem;
+}
+
+.location h3 {
+    opacity: 1;
+}
+
+.info-cnt {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-box {
+    background-color: black;
+    max-width: 13.6363rem;
+    min-height: 13.6363rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.9090rem;
+}
+
+#location-title {
+    display: inline-flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 4rem;
+}
+
+#location-title h2 {
+    display: inline-block;
+    margin: 0;
+}
+
+.contact {
+    position: relative;
+    top: 4rem;
+    min-height: 9.0909rem;
+}
+
+footer {
+    position: relative;
+    top: 2.1313rem;
+    bottom: 1rem;
+}
+
+
+footer h5 {
+    text-align: left ;
+    margin-left: 0.9090rem;
+}
